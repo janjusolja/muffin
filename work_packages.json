@@ -20,6 +20,23 @@
         "script_collection.add_sbs_every_n"
       ],
       "commitResult": true
+    },
+    {
+      "id": "change_oct",
+      "label": "Change octave of piece",
+      "description": "Adds addOCtave to all @oct attributes of the notes in a piece.",
+      "userFacing": true,
+      "params": {
+        "addOctave": {
+          "type": "Number",
+          "default": 1,
+          "description": "@oct will be changed by this parameter."
+        }
+      },
+      "scripts": [
+        "script_collection.change_octave"
+      ],
+      "commitResult": true
     }
   ]
 }
