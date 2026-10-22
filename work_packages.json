@@ -1,5 +1,5 @@
 {
-  "central_repository": "mei-friend/automation",
+  "central_repository": "janjusolja/muffin",
   "branch": "main",
   "automation_path": "run_automation.sh",
   "work_packages": [
